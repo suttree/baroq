@@ -1,0 +1,10 @@
+*.mp4
+*.mov
+
+frames/*.jpg
+output/*.jpg
+
+frames/skip/*.jpg
+output/v*/*.jpg
+
+output_video.mp4
