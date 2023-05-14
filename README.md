@@ -15,3 +15,6 @@ ffmpeg -y -r 25 -start_number 00090 -i output/frame-%05d.jpg -s  1920x1080 -b:v 
 
 ### example
 ffmpeg -i IMG_4338.MOV -r 25 -qscale:v 2 -s 1920x1080 frames/frame-%05d.jpg
+
+# Convert .mov to .mp4
+ffmpeg -i output_video.mov -q:v 0 output_video.mp4
